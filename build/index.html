@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Star Charts</h1>
+
+        <form action="" id="starchart">
+            <div class="form-field">
+                <label for="dob">When were you born?</label>
+                <input type="datetime-local" id="dob" name="dob" value="1985-08-01T04:00" />
+            </div>
+            <div class="form-field">
+                <label for="lob">Where were you born?</label>
+                <input type="text" id="lob" name="lob" value="Port-au-Prince, Haiti" />
+            </div>
+
+            <input type="submit" />
+        </form>
+
+        <div id="result" class="result">
+            <div class="group">
+                <span class="label full">Elements</span>
+
+                <div class="row">
+                    <span class="label">Fire</span>
+                    <span class="value" id="result-el-fire">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Air</span>
+                    <span class="value" id="result-el-air">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Earth</span>
+                    <span class="value" id="result-el-earth">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Water</span>
+                    <span class="value" id="result-el-water">-</span>
+                </div>
+            </div>
+            <div class="group">
+                <span class="label full">Celestial Bodies</span>
+
+                <div class="row">
+                    <span class="label">Sun</span>
+                    <span class="value" id="result-body-sun">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Moon</span>
+                    <span class="value" id="result-body-moon">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Mercury</span>
+                    <span class="value" id="result-body-mercury">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Venus</span>
+                    <span class="value" id="result-body-venus">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Mars</span>
+                    <span class="value" id="result-body-mars">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Jupiter</span>
+                    <span class="value" id="result-body-jupiter">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Saturn</span>
+                    <span class="value" id="result-body-saturn">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Uranus</span>
+                    <span class="value" id="result-body-uranus">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Neptune</span>
+                    <span class="value" id="result-body-neptune">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Pluto</span>
+                    <span class="value" id="result-body-pluto">-</span>
+                </div>
+                <div class="row">
+                    <span class="label">Ascendant</span>
+                    <span class="value" id="result-body-ascendant">-</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/starchart.js"></script>
+</body>
+</html>
